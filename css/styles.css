@@ -1,11 +1,16 @@
-/*________________________ GLobal Styles ____________*/
+/*________________________ Variables ____________*/
+$white: #FFFFFF
+$highlight: #f6f1f5
+$gray_background: #217bb7
+$gray_copy: #3e4851
+$dark_gray: #00649f
 
 
 
 
 
 
-/*________________________ GLobal Styles ____________*/
+/*________________________ Global Styles ____________*/
 
 .wrapper {
 	width: 1440px;
