@@ -1,5 +1,27 @@
+/*________________________ GLobal Styles ____________*/
+
+
+
+
+
+
+/*________________________ GLobal Styles ____________*/
+
+.wrapper {
+	width: 1440px;
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+/*________________________ Banner Styles ____________*/
 #banner {
 	background-image: url(../images/banner_background.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	header {
+		padding 2rem 0;
+	}
+	#logo {
+		color: $white;
+	}
 }
