@@ -1,10 +1,10 @@
 /*________________________ Variables ____________*/
 
-$white: #FFFFFF
-$highlight: #f6f1f5
-$gray_background: #217bb7
-$gray_copy: #3e4851
-$dark_gray: #00649f
+$white: #FFFFFF;
+$highlight: #217bb7;
+$gray_background: #217bb7;
+$gray_copy: #3e4851;
+$dark_gray: #00649f;
 
 
 /*________________________ Global Styles ____________*/
@@ -30,12 +30,12 @@ body {
 	text-align: center;
 }
 
-.button_hightligh {
-	background: 
+.button_highlight {
+	background: $highlight;
 }
 
 .button_secondary {
-	background: rgba(250, 250, 250, 0.35)
+	background: rgba(250, 250, 250, 0.35);
 }
 
 /*________________________ Banner Styles ____________*/
@@ -45,7 +45,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	header {
-		padding 2rem 0;
+		padding: 2rem 0;
 	}
 	#logo {
 		color: $white;
@@ -86,6 +86,9 @@ body {
 		.button_wrapper {
 			text-align: center; 
 			margin: 3rem 0; 
+			.button {
+				margin: 0 .75rem;
+			}
 		}
 	}
 }

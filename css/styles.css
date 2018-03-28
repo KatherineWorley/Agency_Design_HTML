@@ -1,0 +1,67 @@
+/*________________________ Variables ____________*/
+/*________________________ Global Styles ____________*/
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+.wrapper {
+  width: 1440px;
+  max-width: 90%;
+  margin: 0 auto; }
+
+.button {
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  padding: .5rem 3rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center; }
+
+.button_highlight {
+  background: #217bb7; }
+
+.button_secondary {
+  background: rgba(250, 250, 250, 0.35); }
+
+/*________________________ Banner Styles ____________*/
+#banner {
+  background-image: url(../images/banner_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #banner header {
+    padding: 2rem 0; }
+  #banner #logo {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.35rem;
+    float: left;
+    margin: 0; }
+    #banner #logo span {
+      font-weight: 400; }
+  #banner nav {
+    float: right; }
+    #banner nav a {
+      color: #FFFFFF;
+      font-weight: 700;
+      text-decoration: none;
+      margin-left: 2rem; }
+  #banner .content {
+    padding: 2rem 0 6rem 0; }
+    #banner .content .title, #banner .content .sub_title {
+      color: #FFFFFF;
+      text-align: center; }
+    #banner .content .title {
+      font-size: 3.5rem;
+      margin: 0; }
+    #banner .content .sub_title {
+      font-weight: 400;
+      font-size: 1.35rem;
+      width: 500px;
+      margin: 0 auto 2rem auto;
+      line-height: 1.75; }
+    #banner .content .button_wrapper {
+      text-align: center;
+      margin: 3rem 0; }
+      #banner .content .button_wrapper .button {
+        margin: 0 .75rem; }
