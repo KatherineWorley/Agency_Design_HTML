@@ -24,6 +24,9 @@ body {
 .button_secondary {
   background: rgba(250, 250, 250, 0.35); }
 
+.button_small {
+  padding: .3rem 1.5rem; }
+
 /*________________________ Banner Styles ____________*/
 #banner {
   background-image: url(../images/banner_background.jpg);
@@ -47,7 +50,7 @@ body {
       text-decoration: none;
       margin-left: 2rem; }
   #banner .content {
-    padding: 2rem 0 6rem 0; }
+    padding: 4rem 0 8rem 0; }
     #banner .content .title, #banner .content .sub_title {
       color: #FFFFFF;
       text-align: center; }
@@ -65,3 +68,5 @@ body {
       margin: 3rem 0; }
       #banner .content .button_wrapper .button {
         margin: 0 .75rem; }
+
+/*________________________ Services Styles ____________*/

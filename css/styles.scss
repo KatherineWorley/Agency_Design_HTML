@@ -38,6 +38,10 @@ body {
 	background: rgba(250, 250, 250, 0.35);
 }
 
+.button_small {
+	padding: .3rem 1.5rem;
+}
+
 /*________________________ Banner Styles ____________*/
 
 #banner {
@@ -67,7 +71,7 @@ body {
 		}
 	}
 	.content {
-		padding: 2rem 0 6rem 0;
+		padding: 4rem 0 8rem 0;
 		.title, .sub_title {
 			color: $white;
 			text-align: center;
@@ -92,3 +96,16 @@ body {
 		}
 	}
 }
+
+/*________________________ Services Styles ____________*/
+
+
+
+
+
+
+
+
+
+
+
