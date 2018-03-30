@@ -42,6 +42,50 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/logos.png": {
+		"ft": 32768,
+		"iS": 95754,
+		"oA": 0,
+		"oAP": "\/images\/logos.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/past_work_amazon.png": {
+		"ft": 32768,
+		"iS": 1184746,
+		"oA": 0,
+		"oAP": "\/images\/past_work_amazon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/past_work_netflix.png": {
+		"ft": 32768,
+		"iS": 1330034,
+		"oA": 0,
+		"oAP": "\/images\/past_work_netflix.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/past_work_wordpress.png": {
+		"ft": 32768,
+		"iS": 1009726,
+		"oA": 0,
+		"oAP": "\/images\/past_work_wordpress.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
