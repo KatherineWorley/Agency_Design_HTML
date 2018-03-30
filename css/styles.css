@@ -70,3 +70,18 @@ body {
         margin: 0 .75rem; }
 
 /*________________________ Services Styles ____________*/
+#services {
+  background: #217bb7;
+  padding: 2rem 0 6.5rem 0;
+  position: relative; }
+  #services .service {
+    background: #FFFFFF;
+    width: 31%;
+    float: left;
+    margin: -5rem 1% 0 1%;
+    padding: 3rem 2.5%;
+    text-align: center;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
+    -moz-box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
+    box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25); }
