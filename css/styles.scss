@@ -46,6 +46,16 @@ body {
 	padding: .3rem 1.5rem;
 }
 
+.cf:after,
+.cf:before {
+	content: " ";
+	display: table;
+}
+
+.cf:after {
+	clear: both;
+}
+
 /*________________________ Banner Styles ____________*/
 
 #banner {
@@ -118,9 +128,41 @@ body {
 		position: relative;
 		-webkit-box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
 		-moz-box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
-		box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);	
+		box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
+		border-radius: .25rem;
+		h3 {
+			margin: 0;
+			font-size: 1.5rem;
+			color: $dark_gray;
+		}	
+		p {
+			margin: 0 0 2rem 0;
+			color: $dark_gray;
+		}
+		.button {
+			padding: .5rem 2rem;
+		}
+		&:after {
+			content: " ";
+			position: absolute;
+			left: 50%;
+			bottom: -50px;
+			height: 50px;
+			border-left: 2px solid #c9c7d3;
+		}
 	}
+	&:before {
+			content: " ";
+			position: absolute;
+			left: 50%;
+			bottom: 54px;
+			border-top: 2px solid #c9c7d3;
+			width: 59.5%;
+			margin-left: -30.1%;
+		}
+
 }
+
 
 
 
