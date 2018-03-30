@@ -9,6 +9,10 @@ $dark_gray: #00649f;
 
 /*________________________ Global Styles ____________*/
 
+* {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: 'Montserrat', sans-serif;
 }

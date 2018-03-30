@@ -1,5 +1,8 @@
 /*________________________ Variables ____________*/
 /*________________________ Global Styles ____________*/
+* {
+  box-sizing: border-box; }
+
 body {
   font-family: 'Montserrat', sans-serif; }
 
