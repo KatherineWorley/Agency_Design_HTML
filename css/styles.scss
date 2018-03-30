@@ -151,6 +151,14 @@ body {
 			border-left: 2px solid #c9c7d3;
 		}
 	}
+	
+	.middle {
+		&:after {
+			bottom: -105px;
+			height: 105px;
+		}
+	}
+
 	&:before {
 			content: " ";
 			position: absolute;
