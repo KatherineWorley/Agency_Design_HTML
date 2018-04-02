@@ -152,3 +152,19 @@ body {
       position: absolute;
       z-index: 3;
       border: 3.5rem 3.5rem 0 0; }
+      #past_work #slider li img {
+        width: 100%; }
+      #past_work #slider li:nth-child(1) {
+        bottom: -37px;
+        left: 0;
+        -webkit-transform: scale(0.8, 0.8);
+        -moz-transform: scale(0.8, 0.8);
+        transform: scale(0.8, 0.8);
+        z-index: 2; }
+      #past_work #slider li:nth-child(2) {
+        bottom: -37px;
+        left: 0;
+        -webkit-transform: scale(0.8, 0.8);
+        -moz-transform: scale(0.8, 0.8);
+        transform: scale(0.8, 0.8);
+        z-index: 2; }

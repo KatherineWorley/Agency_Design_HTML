@@ -202,8 +202,25 @@ body {
 			z-index: 3;
 			border: 3.5rem 3.5rem 0 0;
 			img {
-				
+				width: 100%;
 			}
+			&:nth-child(1) {
+				bottom: -37px;
+				left: 0;
+				-webkit-transform: scale(.8, .8);
+				-moz-transform: scale(.8, .8);
+				transform: scale(.8, .8);
+				z-index: 2;
+			}
+			&:nth-child(2) {
+				bottom: -37px;
+				left: 0;
+				-webkit-transform: scale(.8, .8);
+				-moz-transform: scale(.8, .8);
+				transform: scale(.8, .8);
+				z-index: 2;
+			}
+
 		}
 	}
 }
