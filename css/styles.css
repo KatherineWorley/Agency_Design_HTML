@@ -139,6 +139,23 @@ body {
   #past_work .logos {
     width: 750px;
     max-width: 95%; }
+  #past_work #slider_buttons {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0; }
+    #past_work #slider_buttons li {
+      width: 9px;
+      height: 9px;
+      margin: 0 .5rem;
+      position: relative;
+      border-radius: 100%;
+      display: inline-block;
+      background-color: #5b596e;
+      transition: background .4s ease-in-out; }
+      #past_work #slider_buttons li:hover {
+        background: #217bb7; }
+    #past_work #slider_buttons .current {
+      background-color: #217bb7; }
   #past_work #slider {
     list-style: none; }
     #past_work #slider li {
