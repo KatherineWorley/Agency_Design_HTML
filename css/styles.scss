@@ -171,11 +171,39 @@ body {
 
 }
 
+/*________________________ Past Work ____________*/
 
-
-
-
-
-
-
-
+#past_work {
+	background: $dark_gray;
+	padding: 5rem 0 25rem 0;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	.title {
+		color: $white;
+		font-size: 2.5rem;
+		margin: 0 0 .75rem 0; 
+	}
+	.logos {
+		width: 750px;
+		max-width: 95%;
+	}
+	#slider {
+		list-style: none;
+		li {
+			width: 600px;
+			height: 375px;
+			overflow: hidden;
+			background-color: $white;
+ 			-webkit-box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
+			-moz-box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
+			box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
+			position: absolute;
+			z-index: 3;
+			border: 3.5rem 3.5rem 0 0;
+			img {
+				
+			}
+		}
+	}
+}
