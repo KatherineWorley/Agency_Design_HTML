@@ -263,7 +263,7 @@ body {
 
 #contact {
 	background: $gray_background;
-	padding: 5rem 0; 
+	padding: 6rem 0 8rem 0; 
 	text-align: center;
 	.title {
 		font-size: 2.5rem;
@@ -277,5 +277,18 @@ body {
 		max-width: 100%;
 		display: block;
 		margin: 0 auto 4rem auto;
+	}
+}
+
+footer {
+	padding: 1rem 0;
+	.copyright {
+		text-align: center;
+		font-weight: 700;
+		color: $gray_copy;
+		a {
+			color: $highlight;
+			text-decoration: none;
+		}
 	}
 }

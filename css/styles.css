@@ -200,7 +200,7 @@ body {
 /*________________________ Contact ____________*/
 #contact {
   background: #217bb7;
-  padding: 5rem 0;
+  padding: 6rem 0 8rem 0;
   text-align: center; }
   #contact .title {
     font-size: 2.5rem;
@@ -213,3 +213,13 @@ body {
     max-width: 100%;
     display: block;
     margin: 0 auto 4rem auto; }
+
+footer {
+  padding: 1rem 0; }
+  footer .copyright {
+    text-align: center;
+    font-weight: 700;
+    color: #3e4851; }
+    footer .copyright a {
+      color: #217bb7;
+      text-decoration: none; }
