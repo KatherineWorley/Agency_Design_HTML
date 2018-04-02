@@ -192,6 +192,9 @@ body {
 		list-style: none;
 		padding: 0;
 		margin: 2rem 0;
+		a {
+			text-decoration: none;
+		}
 		li {
 			width: 9px;
 			height: 9px;
@@ -248,5 +251,26 @@ body {
 				z-index: 2;
 			}
 		}
+	}
+}
+
+/*________________________ Contact ____________*/
+
+#contact {
+	background: $gray_background;
+	padding: 5rem 0; 
+	text-align: center;
+	.title {
+		font-size: 2.5rem;
+		color: $dark_gray;
+		margin: 0;
+	}
+	.sub_title {
+		font-size: 1.5rem;
+		color: $gray_copy;
+		width: 600px;
+		max-width: 100%;
+		display: block;
+		margin: 0 auto 4rem auto;
 	}
 }

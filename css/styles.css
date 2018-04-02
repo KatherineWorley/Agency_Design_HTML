@@ -143,6 +143,8 @@ body {
     list-style: none;
     padding: 0;
     margin: 2rem 0; }
+    #past_work #slider_buttons a {
+      text-decoration: none; }
     #past_work #slider_buttons li {
       width: 9px;
       height: 9px;
@@ -190,3 +192,20 @@ body {
         -moz-transform: scale(0.8, 0.8);
         transform: scale(0.8, 0.8);
         z-index: 2; }
+
+/*________________________ Contact ____________*/
+#contact {
+  background: #217bb7;
+  padding: 5rem 0;
+  text-align: center; }
+  #contact .title {
+    font-size: 2.5rem;
+    color: #00649f;
+    margin: 0; }
+  #contact .sub_title {
+    font-size: 1.5rem;
+    color: #3e4851;
+    width: 600px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 4rem auto; }
