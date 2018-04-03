@@ -4,7 +4,8 @@
   box-sizing: border-box; }
 
 body {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased; }
 
 .wrapper {
   width: 1440px;
@@ -46,7 +47,8 @@ body {
 #banner {
   background-image: url(../images/banner_background.jpg);
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  position: relative; }
   #banner header {
     padding: 2rem 0; }
   #banner #logo {
@@ -199,7 +201,7 @@ body {
 
 /*________________________ Contact ____________*/
 #contact {
-  background: #217bb7;
+  background: #008B8B;
   padding: 6rem 0 8rem 0;
   text-align: center; }
   #contact .title {
